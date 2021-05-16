@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightgray;
+    width: 70%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 1rem;
+}
+.background {
+    background-color: white;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 1.5rem;
+
+}
+.ticket {
+    background-color: white;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section > h2{
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.form_group{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#generate_ticket_button,
+#cancel_ticket_button{
+    padding: 0.50rem;
+    border-radius: 5px;
+    color: red;
+    background-color: darkgrey;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.buttons {
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Treno Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <section>
+                <h2>Calcola il prezzo del tuo biglietto</h2>
+
+                <div class="card">
+                    <!-- nome e cognome -->
+
+                    <div class="form_group">
+                        <label for="name">Nome e cognome</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <!-- km da percorrere -->
+                    <div class="form_group">
+                        <label for="name">Km da percorrere</label>
+                        <input type="number" name="km" id="km" step="0.01">
+                    </div>
+                    <!--  fascia di età -->
+                    <div class="form_group">
+                        <label for="age_group">Inserisci la tua età</label>
+                        <select name="age_group" id="age_group">
+                            <option value="minorenne">Minorenne</option>
+                            <option value="maggiorenne">Maggiorenne</option>
+                            <option value="over65">Over 65</option>
+                        </select>
+                    </div>
+
+                    <div class="buttons">
+                        <button id="generate_ticket_button">Genera</button>
+                        <button id="cancel_ticket_button">Annulla</button>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+
+            <section>
+                <h3>Il tuo Biglietto</h3>
+                <div class="ticket">
+
+                </div>
+            </section>
+
+        </div>
+
+
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
