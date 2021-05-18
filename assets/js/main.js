@@ -43,9 +43,9 @@ document
 document
     .getElementById("cancel_ticket_button")
     .addEventListener("click", function () {
-        document.getElementById("name").value("");
-        document.getElementById("km").value("");
-        document.getElementById("age_group").value("");
+        document.getElementById("name").value= "";
+        document.getElementById("km").value="";
+        document.getElementById("age_group").value="";
 
     })
 
